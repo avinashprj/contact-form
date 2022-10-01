@@ -35,7 +35,7 @@ export default function Home() {
   };
 
   const submitButtonHandler = () => {
-    sendEmail();
+    // sendEmail();
   };
 
   const formik = useFormik({
@@ -135,7 +135,7 @@ export default function Home() {
                       ? "border-red-600 focus:border-red-600 focus:ring-red-600 dark:border-red-500 dark:focus:border-red-500 dark:focus:ring-red-600 "
                       : "border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:border-gray-600 dark:focus:ring-primary-500 dark:focus:border-primary-500"
                   }`}
-                  placeholder="Avinash Prajapati"
+                  placeholder="DEADPOOL SHARMA"
                   value={formik.values.name}
                   onBlur={formik.handleBlur}
                   onChange={formik.handleChange}
