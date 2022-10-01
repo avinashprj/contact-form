@@ -188,7 +188,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex gap-x-4 flex-col sm:flex-row">
-              <div className="grow">
+              <div className="grow mb-8 sm:mb-0">
                 <label
                   htmlFor="email"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
@@ -318,7 +318,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex gap-x-4 flex-col sm:flex-row">
-              <div className="grow">
+              <div className="grow mb-8 sm:mb-0">
                 <label
                   htmlFor="quantity"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
