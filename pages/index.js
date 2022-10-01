@@ -35,7 +35,7 @@ export default function Home() {
   };
 
   const submitButtonHandler = () => {
-    // sendEmail();
+    sendEmail();
   };
 
   const formik = useFormik({
